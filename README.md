@@ -11,13 +11,17 @@ You will need docker container for MySQL database. Make sure you have docker ins
 Connect to Docker.
 To create MySQL database and table you have to execute these SQL commands:
 
- ```CREATE DATABASE geolocations
-    DEFAULT CHARACTER SET = 'utf8mb4';```
+ ```
+ CREATE DATABASE geolocations
+    DEFAULT CHARACTER SET = 'utf8mb4';
+    ```
 
-```CREATE TABLE geolocations(  
+```
+CREATE TABLE geolocations(  
     id VARCHAR(255 NOT NULL PRIMARY KEY,
     locationId int,
     name VARCHAR(255),
     latitude FLOAT,
     longitude FLOAT
-) ;```
+) ;
+```
