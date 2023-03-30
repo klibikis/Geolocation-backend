@@ -18,7 +18,7 @@ DEFAULT CHARACTER SET = 'utf8mb4';
 
 ```
 CREATE TABLE geolocations(  
-    id VARCHAR(255 NOT NULL PRIMARY KEY,
+    id VARCHAR(255) NOT NULL PRIMARY KEY,
     locationId int,
     name VARCHAR(255),
     latitude FLOAT,
