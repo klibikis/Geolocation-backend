@@ -24,3 +24,7 @@ CREATE TABLE geolocations(
     latitude FLOAT,
     longitude FLOAT);
 ```
+
+```
+ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY '123456'
+```
